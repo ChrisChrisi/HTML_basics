@@ -1,0 +1,13 @@
+table,  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+label{
+    font-weight: bold;
+}
+
+tfoot tr td {
+    background-color: aqua;
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+#main_table, #main_table > thead{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+thead > tr >th{
+    padding: 10px;
+}
+body{
+    font-family: arial;
+    font-size: 125%;
+}
+fieldset{
+    border:  2px solid black;
+}
+
+a{
+    font-weight: bold;
+    color: dodgerblue;
+}
