@@ -3,11 +3,26 @@ table,  td {
     border-collapse: collapse;
 }
 
-label{
+td:nth-child(1) {
+    width: 50px;
     font-weight: bold;
+}
+td:nth-child(2){
+    width: 250px;
 }
 
 tfoot tr td {
-    background-color: aqua;
+    background-color: skyblue;
     text-align: center;
+}
+#country_code, #area_code, #state{
+    width: 50px;
+}
+
+#number{
+    width: 100px;
+}
+
+textarea, input[type=text], input[type=email]{
+    width: 220px;
 }

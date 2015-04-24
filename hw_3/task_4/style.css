@@ -1,0 +1,26 @@
+table,  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+input{
+    vertical-align: middle;
+}
+
+thead, tfoot{
+    background-repeat: no-repeat;
+    background: #d2d2d2;
+    background: -moz-linear-gradient(top, #DEDEDE 0%, #BDBDBD 80%, #BBB 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#DEDEDE), color-stop(80%,#BDBDBD), color-stop(100%,#BBB));
+
+}
+#s_product_id, #s_units_in_stock{
+    width: 50px;
+}
