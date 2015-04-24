@@ -2,9 +2,103 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>LinkedIn</title>
 </head>
 <body>
+<header>
+    <h2>
+        <a href="#">LinkedIn</a>
+    </h2>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">What is LinkedIn?</a></li>
+            <li><a href="#">Join Today</a></li>
+            <li>
+                Sign In
+                <form>
+                    <ul type="circle">
+                        <li>
+                            <label for="sign_in_email">Email:</label>
+                            <input id="sign_in_email" name="sign_in_email" type="email"/>
+                        </li>
+                        <li>
+                            <label for="sign_in_password">Password:</label>
+                            <input id="sign_in_password" name="sign_in_password" type="password"/>
+                        </li>
+                        <li>
+                            <input type="submit" value="Sign In"/>
+                        </li>
+                    </ul>
+                </form>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<hr/>
+
+<main>
+    <section>
+        <header>
+            <h1> Over 175 million professionals use Linked to exchange information,
+                ideas and opportunities
+            </h1>
+        </header>
+        <ul>
+            <li>Stay informed about your contacts and industry</li>
+            <li>Find the people and knowledge you need to achieve your goals</li>
+            <li>Control your professional identity online</li>
+        </ul>
+    </section>
+    <section>
+        <header>
+            <h3>Join LinkedIn Today</h3>
+        </header>
+        <form>
+            Sign Up
+            <ul>
+                <li>
+                    <label for="sign_up_first_name">First Name:</label><br/>
+                    <input type="text" name="sign_up_first_name" id="sign_up_first_name"/>
+                </li>
+                <li>
+                    <label for="sign_up_last_name">Last Name:</label><br/>
+                    <input type="text" name="sign_up_last_name" id="sign_up_last_name"/>
+                </li>
+                <li>
+                    <label for="sign_up_email">Email:</label><br/>
+                    <input type="email" name="sign_up_email" id="sign_up_email"/>
+                </li>
+                <li>
+                    <label for="sign_up_password">Password:</label><br/>
+                    <input type="password" name="sign_up_password" id="sign_up_password"/><br/>
+                    6 or more characters
+                </li>
+            </ul>
+            <input type="submit" value="Join Now"/><br/>
+        </form>
+        <br/>
+        Already on LinkedIn? <a href="#">Sign in</a>
+    </section>
+    <section>
+        <header>
+            <h2>Search for someone by name</h2>
+        </header>
+        <form>
+            <ul>
+                <li>
+                    <label for="search_first_name">First Name:</label>
+                    <input type="text" name="first_name" id="search_first_name" placeholder="First Name"/>
+                </li>
+                <li>
+                    <label for="search_last_name">Last Name:</label>
+                    <input type="text" name="last_name" id="search_last_name" placeholder="Last Name"/>
+                </li>
+            </ul>
+        </form>
+    </section>
+</main>
 
 </body>
 </html>
